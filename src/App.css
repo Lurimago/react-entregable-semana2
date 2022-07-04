@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.icon{
+  height: 150px;
+  width: 150px;
+}
+
+.card{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  background: hsla(0,0%,100%,.7);
+  opacity: 1;
+}
+.container {
+  /* background: hsla(0,0%,100%,.7); */
+  min-height: 50vh;  
+  width: 550px;
+
+  border-radius: 15px;
+  padding: 30px;
+  opacity: 1;
+}
+.CityAndCountry{
+  font-size: 35px;
+  margin-top: 10px;
+}
+.NumberDegree {
+  font-size: 85px;
+  margin-top: 12px;
+  margin-bottom: -15px;
+}
+.down{
+  width: 100%;
+  /* background: hsla(0,0%,100%,.7); */
+}
+.down .icon{
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+
