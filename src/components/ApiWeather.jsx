@@ -63,7 +63,7 @@ function ApiWeather() {
         <div className="col">
           <h6>Clouds:</h6>
           <i class="fa-solid fa-cloud"></i>
-          <h5 className="temp">{data.clouds.all} %</h5>
+          <h5 className="temp">{data.clouds?.all} %</h5>
         </div>
         <div className="col">
           <h6>Humidity:</h6>
